@@ -40,5 +40,5 @@ cd atelier2
 python -m venv env
 source env/bin/activate
 uv pip install -r requirements.txt
-marimo edit marimo-quickstart-atelier2-nb.py
+uvx marimo edit --sandbox marimo-quickstart-atelier2-nb.py
 ```
