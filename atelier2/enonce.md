@@ -36,7 +36,8 @@ Le dernier jour, en plénière :
 Python est déjà installé sur votre machine, mais vous devez créer votre environnement virtuel et installer les dépendances.
 
 ```bash
-cd atelier2
+git clone https://github.com/jfschaff/hackathon-eds-2026.git
+cd hackathon-eds-2026/atelier2/
 python -m venv env
 source env/bin/activate
 uv pip install -r requirements.txt
