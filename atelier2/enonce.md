@@ -38,8 +38,8 @@ Python est déjà installé sur votre machine, mais vous devez créer votre envi
 ```bash
 git clone https://github.com/jfschaff/hackathon-eds-2026.git
 cd hackathon-eds-2026/atelier2/
-python -m venv env
-source env/bin/activate
+uv venv --python 3.12
+source .venv/bin/activate
 uv pip install -r requirements.txt
 uvx marimo edit --sandbox marimo-quickstart-atelier2-nb.py
 ```
