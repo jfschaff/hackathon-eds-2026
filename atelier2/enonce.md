@@ -1,10 +1,10 @@
-# Atelier 2 – 1ere demi-journée : évaluer la qualité des données d'un EDS
+# Atelier 2 – évaluer la qualité des données d'un EDS
 
 ## Objectif
 
 Développer des **indicateurs de qualité des données** chargées dans un entrepôt de données de santé (EDS) au format OMOP, puis les mesurer sur la base fournie.
 
-On s'intéresse aux données elles-mêmes, pas à la façon dont elles ont été produites : l'analyse de l'ETL est l'objet de la 2e demi-journée.
+On s'intéresse aux données elles-mêmes, pas à la façon dont elles ont été produites : l'analyse de l'ETL est l'objet de l'atelier 1.
 
 Deux thématiques possibles : **biologie** (`measurement`) et **parcours patient** (`person`, `visit_occurrence`, `condition_occurrence`, `procedure_occurrence`…).
 
@@ -33,10 +33,12 @@ Le dernier jour, en plénière :
 
 ## Quickstart
 
-L'environnement est déjà installé sur votre machine.
+Python est déjà installé sur votre machine, mais vous devez créer votre environnement virtuel et installer les dépendances.
 
 ```bash
-cd Airflow-Hackathon-EDS/hackathon-2026/atelier2
+cd atelier2
+python -m venv env
 source env/bin/activate
+uv pip install -r requirements.txt
 marimo edit marimo-quickstart-atelier2-nb.py
 ```
