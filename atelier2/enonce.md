@@ -41,5 +41,5 @@ cd hackathon-eds-2026/atelier2/
 uv venv --python 3.12
 source .venv/bin/activate
 uv pip install -r requirements.txt
-uvx marimo edit --sandbox marimo-quickstart-atelier2-nb.py
+marimo edit marimo-quickstart-atelier2-nb.py
 ```
